@@ -2,7 +2,8 @@ Exemplo de uma pesquisa no elasticsearch comparando o texto apresentado com os t
 A escolha dos campos e critérios de pesquisa (shingle, shingle_raw, autor, peso dos votos) afeta o resultado, positicamente ou negativamente. 
 
 POST meustextos/textos/_search
-{   "_source": ["Classificacao","Texto"],
+{ "size" : 7,
+  "_source": ["Classificacao","Texto"],
     "query": { 
         "function_score": {
           "query": { 
@@ -28,4 +29,3 @@ POST meustextos/textos/_search
           "min_score" : 0
     }
 }}
-
