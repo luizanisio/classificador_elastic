@@ -4,6 +4,9 @@ Criando um classificador simples com ElasticSearch
 Dicas de como criar um classificador para sugerir preenchimento de campos, classes de documentos ou identificar fluxos de trabalho baseado em textos inseridos no ElasticSearch.
 
 O primeiro passo é criar um índice definindo os campos de forma a potencializar a pesquisa do elastic e aumentar a eficácia do classificador.
+- pode-se criar um arquivo de sinônimo para cada contexto (sinônimo de somes, termos de informática, termos de áreas específicas, etc)
+- não é sugerida a criação de listas muito grandes de sinônimos, apenas o que realmente for útil no contexto
+- o arquivo de exemplo de sinônimo de nomes foi encontrado em um fórum (vou resgatar e incluir o endereço aqui) e alguns nomes foram acrescidos apenas como exemplo.
 
 O segundo passo é criar uma pesquisa com More Like This que reflita corretamente a relação entre o campo de pesquisa e o campo da classe, acrescentando pesos com filtros em relação a outros campos relacionados.
 
