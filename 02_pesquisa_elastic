@@ -12,7 +12,8 @@ POST meustextos/textos/_search
             "min_term_freq": 1,
             "min_doc_freq": 1,
             "max_query_terms": 3
-          } },
+          }            
+          },
           "functions": [
               {   "field_value_factor": {
                     "field": "Votos",
@@ -21,6 +22,10 @@ POST meustextos/textos/_search
                     "missing": 1
                 }
               }
-          ]
+          ], 
+          "max_boost": 2,
+          "boost_mode": "multiply",
+          "min_score" : 0
     }
 }}
+
