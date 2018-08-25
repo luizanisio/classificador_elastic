@@ -1,0 +1,275 @@
+[
+	{
+		"Id": "1",
+		"Classificacao": "Alegria",
+		"Autor": "Ippolito",
+		"Texto": "A alegria é a juventude eterna do ânimo.",
+		"Texto_Shingle": "A alegria é a juventude eterna do ânimo.",
+		"Texto_Shingle_Raw": "A alegria é a juventude eterna do ânimo.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "2",
+		"Classificacao": "Alegria",
+		"Autor": "Rubem Alves",
+		"Texto": "O prazer é único",
+		"Texto_Shingle": " não se repete. A alegria repete-se sempre. Basta lembrar.",
+		"Texto_Shingle_Raw": "O prazer é único",
+		"Atualizacao": " não se repete. A alegria repete-se sempre. Basta lembrar."
+	},
+	{
+		"Id": "3",
+		"Classificacao": "Alegria",
+		"Autor": "Kliksberg",
+		"Texto": "A alegria de contemplar e de conhecer é a mais bela dádiva da natureza. ",
+		"Texto_Shingle": "A alegria de contemplar e de conhecer é a mais bela dádiva da natureza. ",
+		"Texto_Shingle_Raw": "A alegria de contemplar e de conhecer é a mais bela dádiva da natureza. ",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "4",
+		"Classificacao": "Alegria",
+		"Autor": "Barthélemy",
+		"Texto": "A alegria é a saúde da alma. ",
+		"Texto_Shingle": "A alegria é a saúde da alma. ",
+		"Texto_Shingle_Raw": "A alegria é a saúde da alma. ",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "5",
+		"Classificacao": "Alegria",
+		"Autor": "Charles Chaplin",
+		"Texto": "Estou sempre alegre. Essa é a maneira de resolver os problemas da vida. ",
+		"Texto_Shingle": "Estou sempre alegre. Essa é a maneira de resolver os problemas da vida. ",
+		"Texto_Shingle_Raw": "Estou sempre alegre. Essa é a maneira de resolver os problemas da vida. ",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "6",
+		"Classificacao": "Amizade",
+		"Autor": "Lincoln",
+		"Texto": "A melhor parte da vida são as amizades.",
+		"Texto_Shingle": "A melhor parte da vida são as amizades.",
+		"Texto_Shingle_Raw": "A melhor parte da vida são as amizades.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "7",
+		"Classificacao": "Amizade",
+		"Autor": "Caleb Colton",
+		"Texto": "A verdadeira amizade é como a saúde perfeita",
+		"Texto_Shingle": " seu valor raramente é reconhecido até que seja perdida.",
+		"Texto_Shingle_Raw": "A verdadeira amizade é como a saúde perfeita",
+		"Atualizacao": " seu valor raramente é reconhecido até que seja perdida."
+	},
+	{
+		"Id": "8",
+		"Classificacao": "Amizade",
+		"Autor": "Vinícius de Moraes",
+		"Texto": "A gente não faz amigos",
+		"Texto_Shingle": " reconhece-os.",
+		"Texto_Shingle_Raw": "A gente não faz amigos",
+		"Atualizacao": " reconhece-os."
+	},
+	{
+		"Id": "9",
+		"Classificacao": "Amizade",
+		"Autor": "Caminhão",
+		"Texto": "Os amigos escutam o que você fala. Os melhores amigos prestam atenção ao que você não diz.",
+		"Texto_Shingle": "Os amigos escutam o que você fala. Os melhores amigos prestam atenção ao que você não diz.",
+		"Texto_Shingle_Raw": "Os amigos escutam o que você fala. Os melhores amigos prestam atenção ao que você não diz.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "10",
+		"Classificacao": "Amor",
+		"Autor": "Hubbard",
+		"Texto": "O amor que damos é o único que preservamos.",
+		"Texto_Shingle": "O amor que damos é o único que preservamos.",
+		"Texto_Shingle_Raw": "O amor que damos é o único que preservamos.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "11",
+		"Classificacao": "Amor",
+		"Autor": "Pascal",
+		"Texto": "Amar é preservar a sua singularidade.",
+		"Texto_Shingle": "Amar é preservar a sua singularidade.",
+		"Texto_Shingle_Raw": "Amar é preservar a sua singularidade.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "12",
+		"Classificacao": "Amor",
+		"Autor": "Desmond Tutu",
+		"Texto": "Não somos amados por sermos bons. Somos bons porque somos amados.",
+		"Texto_Shingle": "Não somos amados por sermos bons. Somos bons porque somos amados.",
+		"Texto_Shingle_Raw": "Não somos amados por sermos bons. Somos bons porque somos amados.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "13",
+		"Classificacao": "Amore",
+		"Autor": "anônimo",
+		"Texto": "Comprimidos aliviam a dor",
+		"Texto_Shingle": " mas só o amor alivia o sofrimento.",
+		"Texto_Shingle_Raw": "Comprimidos aliviam a dor",
+		"Atualizacao": " mas só o amor alivia o sofrimento."
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "14",
+		"Classificacao": "Raiva",
+		"Autor": "Mário Quintana",
+		"Texto": "Se eu pudesse eu pegava a dor. Colocava dentro de um envelope e devolvia ao remetente!",
+		"Texto_Shingle": "Se eu pudesse eu pegava a dor. Colocava dentro de um envelope e devolvia ao remetente!",
+		"Texto_Shingle_Raw": "Se eu pudesse eu pegava a dor. Colocava dentro de um envelope e devolvia ao remetente!",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "15",
+		"Classificacao": "Raiva",
+		"Autor": "Selena Gomez",
+		"Texto": "A ironia da dor é que você quer ser consolado por quem te machucou.",
+		"Texto_Shingle": "A ironia da dor é que você quer ser consolado por quem te machucou.",
+		"Texto_Shingle_Raw": "A ironia da dor é que você quer ser consolado por quem te machucou.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "16",
+		"Classificacao": "Raiva",
+		"Autor": "Jeannie Tenney",
+		"Texto": "A raiva pode ser breve",
+		"Texto_Shingle": " mas pode causar danos que vão durar para sempre.",
+		"Texto_Shingle_Raw": "A raiva pode ser breve",
+		"Atualizacao": " mas pode causar danos que vão durar para sempre."
+	},
+	{
+		"Id": "17",
+		"Classificacao": "Raiva",
+		"Autor": "Sheldon",
+		"Texto": "Odeio quem fala tô chegando",
+		"Texto_Shingle": " quando ainda nem saiu de casa.",
+		"Texto_Shingle_Raw": "Odeio quem fala tô chegando",
+		"Atualizacao": " quando ainda nem saiu de casa."
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "18",
+		"Classificacao": "Tristeza",
+		"Autor": "Filme",
+		"Texto": "Estou cansado. Cansado de pessoas sendo ruins umas com as outras. Cansado de toda a dor que eu sinto e ouço no mundo todos os dias.",
+		"Texto_Shingle": "Estou cansado. Cansado de pessoas sendo ruins umas com as outras. Cansado de toda a dor que eu sinto e ouço no mundo todos os dias.",
+		"Texto_Shingle_Raw": "Estou cansado. Cansado de pessoas sendo ruins umas com as outras. Cansado de toda a dor que eu sinto e ouço no mundo todos os dias.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "19",
+		"Classificacao": "Tristeza",
+		"Autor": "anônimo",
+		"Texto": "O veneno da dor causada a outros",
+		"Texto_Shingle": " retornará a você.",
+		"Texto_Shingle_Raw": "O veneno da dor causada a outros",
+		"Atualizacao": " retornará a você."
+	},
+	{
+		"Id": "20",
+		"Classificacao": "Tristeza",
+		"Autor": "Nathália Theylor",
+		"Texto": "Magoar quem a gente gosta dói na gente mesmo.",
+		"Texto_Shingle": "Magoar quem a gente gosta dói na gente mesmo.",
+		"Texto_Shingle_Raw": "Magoar quem a gente gosta dói na gente mesmo.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "21",
+		"Classificacao": "Tristeza",
+		"Autor": "Querido John",
+		"Texto": "Sinto tanto a sua falta que até dói.",
+		"Texto_Shingle": "Sinto tanto a sua falta que até dói.",
+		"Texto_Shingle_Raw": "Sinto tanto a sua falta que até dói.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "Raiva",
+		"Autor": "Nietzsche",
+		"Texto": "Detesto quem me rouba a solidão sem em troca me oferecer verdadeira companhia.",
+		"Texto_Shingle": "Detesto quem me rouba a solidão sem em troca me oferecer verdadeira companhia.",
+		"Texto_Shingle_Raw": "Detesto quem me rouba a solidão sem em troca me oferecer verdadeira companhia.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "Raiva",
+		"Autor": "Caio Abreu",
+		"Texto": "Odeio circo. Aliás",
+		"Texto_Shingle": " odeio tudo que me encanta e depois vai embora.",
+		"Texto_Shingle_Raw": "Odeio circo. Aliás",
+		"Atualizacao": " odeio tudo que me encanta e depois vai embora."
+	},
+	{
+		"Id": "",
+		"Classificacao": "",
+		"Autor": "",
+		"Texto": "",
+		"Texto_Shingle": "",
+		"Texto_Shingle_Raw": "",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": "",
+		"Classificacao": "Tristeza",
+		"Autor": "Caio Abreu",
+		"Texto": "Sofrer dói. Dói e não é pouco. Mas faz um bem danado depois que passa.",
+		"Texto_Shingle": "Sofrer dói. Dói e não é pouco. Mas faz um bem danado depois que passa.",
+		"Texto_Shingle_Raw": "Sofrer dói. Dói e não é pouco. Mas faz um bem danado depois que passa.",
+		"Atualizacao": "8/22/18 12:59"
+	},
+	{
+		"Id": ""
+	}
+]
