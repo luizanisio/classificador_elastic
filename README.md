@@ -19,6 +19,16 @@ Pode-se melhorar a pesquisa usando diversos recursos do elasticsearch como relac
 
 É importante verificar se o classificador está fazendo uma boa classificação. Uma forma simples é incluir uma rotina que simule a classificação de textos já classificados, removendo o próprio texto da pesquisa (pelo seu ID) e depois retornar um percentual de acertos. Existem diversas técnicas de validação na ciência de dados, esse é só um começo de forma simples e com bons resultados.
 
+O que fazer se não está dando certo?
+- Cada problema exige uma solução específica. Essa proposta visa facilitar o fluxo do processo de classificação, ou adivinhação de um valor de campo baseado em um texto dentro de um contexto. Caso a relação do campo textual com o campo de classificação seja fraca ou ambígua, é muito provável que o algoritmo reflita isso. Sendo assim, várias classificações podem aparecer com valores muito próximos. Isso também pode sugerir que duas classes devam ser unidas. Por exemplo textos parecidos indicarem  alegria em alguns casos e felicidade em outros. 
+- O primeiro passo é verificar se os textos da base estão bem classificados
+- Deve-se verificar também se o campo com o texto está bem mapeado. O uso de shingles e word_vectors como no exemplo deve melhorar a acurácia pois termos compostos começam a ganhar peso nas pesquisas, diminuindo o problema de termos ambiguos.
+- Deve haver um conjunto de textos representativos de cada classe. O próprio uso e realimentação do elastic com novos textos pode melhorar o classificador.
+
 O exemplo aqui apresentado é muito simples, apenas para ilustrar a solução. 
+
+O uso do elasticsearch facilita o processo de realimentação de dados onde o próprio fluxo de trabalho valida as novas entradas que farão parte do corpo de documentos do classificador. E a sua velocidade de indexação e simplicidade de manutenção trazem uma característica de sustentabilidade e aperfeiçeamento do modelo.
+
+Essa proposta não tem a pretenção de substituir soluções baseadas em bibliotecas de NLP e redes neurais como outros exemplos que serão apresentados com o uso do Spacy. Tudo vai depender do problema que precisa ser resolvido, dos dados que estão disponíveis e com a disponibilidade de uma equipe para criação, validação e atualização de modelos. 
 
 Baseado na publicação de Saskia Vola: https://www.elastic.co/blog/text-classification-made-easy-with-elasticsearch
