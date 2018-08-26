@@ -2,12 +2,14 @@
 Segue um exemplo simples de criação do índice no Elastic Search.
 O maior segredo está na criação correta dos campos para permitir um score mais preciso e consequentemente uma associação correta com a classe que se desejada prever. O uso de <b>shingle</b> auxilia na criação de índices com termos compostos. No exemplo do filter <b>filtro_shingle</b> são criados shingles com 2 ou 3 termos. O mapeamento do campo com <b>term_vector</b> registra informações sobre os termos produzidos pelo processo de análise.
 
+- O arquivo de sinônimo de nomes <b>sinonimos_nomes.txt</b> deve ser colocado na pasta config do elasticsearch. Se quiser colocar em outra pasta, basta alterar o filter com o caminho relativo ou absoluto.
+
 ```json
 PUT /meustextos/
 {    "analysis": {
      "filter": {
        "stemmer_br": {"type": "stemmer", "language":   "brazilian" },
-       "sinonimo_nomes" : { "type" : "synonym", "synonyms_path" : "sin_nomes.txt"},
+       "sinonimo_nomes" : { "type" : "synonym", "synonyms_path" : "sinonimos_nomes.txt"},
        "filtro_shingle":{ "type":"shingle", "max_shingle_size":3,
                           "min_shingle_size":2, "output_unigrams":"true"}
      },
