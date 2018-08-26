@@ -4,9 +4,9 @@
 - https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-mlt-query.html 
 
 <b>Parâmetros:</b>
-- min_term_freq: frequência mínima de termos para aceitar o documento (padrão 2)
-- min_doc_freq: frequência mínima de documentos encontrados para usar o termo (padrão 5)
-- max_query_terms: máximo número de query terms usados, quanto maior, mais acurado e mais pesado (padrão 25 - diz-se que o valore mágico é 12). 
+- <b>min_term_freq</b>: frequência mínima de termos para aceitar o documento (padrão 2)
+- <b>min_doc_freq</b>: frequência mínima de documentos encontrados para usar o termo (padrão 5)
+- <b>max_query_terms</b>: máximo número de query terms usados, quanto maior, mais acurado e mais pesado (padrão 25 - diz-se que o valore mágico é 12). 
 
 <b>More like this simples:</b>
 ```json
@@ -131,4 +131,46 @@ https://www.elastic.co/guide/en/elasticsearch/reference/6.2/query-dsl-function-s
           "min_score" : 0
     }
 }}
+```
+
+<b>Filtros por script:</b>
+Alguns atributos/métodos não funcionam em campos text. Se criar o keyword do text, alguns atributos/métodos funcionam, outros não (rsr). 
+
+<b>Filtro verificando o tamanho de um campo texto:</b>
+```json
+{"query": {"script" : {"script": "doc['Texto'].value.length() >= 4 " } } 
+```
+
+<b>Filtro verificando se um campo existe e se um campo texto é maior que outro:</b>
+```json
+{ "_source" : ["Texto","Descricao","Unidade"],
+  "query": { "bool" : { "must_not" : {"term": {"Fold": 1 }},
+                          "must" :  [
+                        {"exists" : { "field" : "Texto" }},
+                        {"exists" : { "field" : "Descricao" }},
+                        {"range" :  { "Unidades" : {"gte" : 5 }}},
+                        {"script":  { "script": "return doc['Descricao'].value>=doc['Texto'].value;"}} ]
+    }}  }
+```
+
+<b>Filtros semelhantes ao in do SQL:</b> <i>Tipo in ('Artigo','Tese')</i>
+```json
+{ "size": 2000,
+       "_source": ["CodigoProduto" ],
+       "query": {
+           "bool": {
+               "must": [
+                   {"match": {"Validado": "S"}},
+                   {"match": {"Concluido": "N"}},
+                   {"script": 
+                      { "script": "return doc['Texto'].length>=3;"}},
+                   {"range" : { "Num_Palavras" : {"gte": 15 } }},
+                   {"bool": {"should": 
+                      [{"match": { "Tipo":"Artigo"}},
+                       {"match": { "Tipo":"Tese"}}
+                      ], "minimum_should_match" : 1  }}
+               ]
+           }
+       }
+   }
 ```
