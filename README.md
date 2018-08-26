@@ -11,6 +11,7 @@ O <b>primeiro passo</b> é criar um índice definindo os campos de forma a poten
 - o arquivo de exemplo de sinônimo de nomes foi encontrado em um fórum (vou resgatar e incluir o endereço aqui) e alguns nomes foram acrescidos apenas como exemplo.
 
 O <b>segundo passo</b> é criar uma pesquisa com More Like This que reflita corretamente a relação entre o campo de pesquisa e o campo da classe, acrescentando pesos com filtros em relação a outros campos relacionados.
+- Outros exemplos de pesquisas com MLT: https://github.com/luizanisio/classificador_elastic/blob/master/02__mais_pesquisas.md
 
 O <b>terceiro passo</b> é criar o algoritmo de score da melhor classe. Deve-se escolher um size na pesquisa (de 5 a 10 parece um número adequado). Após o retorno da pesquisa, basta somar o score de cada classe e utilizar a classe com maior score.
 Pode-se verificar a diferença entre a primeira classe e a segunda para avaliar se existe uma "dúvida" muito grande entre as classes. Valores muito próximos podem sugerir uma dúvida maior. A ordem das classes retornadas pode facilitar o preenchimento de um combo de seleção facilitando o trabalho de preenchimento do campo.
