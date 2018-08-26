@@ -7,7 +7,14 @@ Os algoritmos são simples e estão baseados no artigo de Saskia Vola em https:/
 
 ### Python
 
-...em breve
+O arquivo <b>exemplo_classificador.py</b> demonstra uma classe base para uso do elasticsearch em python, incluindo o método <b>classificar</b>
+- os parâmetros são a query do elastic e o campo usado para classificação.
+- o exemplo é a implementação direta da proposta de Saskia Vola e demonstrou um ótimo resultado em alguns contextos.
+
+Em breve será incluído um exemplo usando flask para responder requisições do angular na classificação contínua em um fluxo simples de trabalho.
+1. Pesquisar textos
+2. inserir um novo texto e receber a sugestão da classe
+3. possibilidade de ajustar a classe, aperfeiçoando as próximas classificações
 
 ### Angular
 
