@@ -1,7 +1,8 @@
 # classificador_elastic
-Criando um classificador simples com ElasticSearch
 
-Dicas de como criar um classificador para sugerir preenchimento de campos, classes de documentos ou identificar fluxos de trabalho baseado em textos inseridos no ElasticSearch.
+## Criando um classificador simples com ElasticSearch
+
+Dicas de como criar um classificador para sugerir preenchimento de campos, classes/tipos de documentos ou identificar fluxos de trabalho baseado em textos inseridos no ElasticSearch. Por exemplo uma solicitação de suporte poderia ser aberta e o classificador identificaria uma área de suporte adequada à solicitação de acordo com o texto informado.
 Sugiro o uso do <b>Dev Tools</b> do <b>kibana</b> para seguir os exemplos, facilita bastante.
 
 O <b>primeiro passo</b> é criar um índice definindo os campos de forma a potencializar a pesquisa do elastic e aumentar a eficácia do classificador.
