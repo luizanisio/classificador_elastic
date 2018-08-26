@@ -1,5 +1,6 @@
-Exemplo simples de criação do índice no Elastic Search.
-O maior segredo está na criação correta dos campos para permitir um score mais preciso e consequentemente uma associação correta com a classe que se desejada prever.
+# Criando o índice
+Segue um exemplo simples de criação do índice no Elastic Search.
+O maior segredo está na criação correta dos campos para permitir um score mais preciso e consequentemente uma associação correta com a classe que se desejada prever. O uso de <b>shingle</b> auxilia na criação de índices com termos compostos. No exemplo do filter <b>filtro_shingle</b> são criados shingles com 2 ou 3 termos.
 
 PUT /meustextos/
 {    "analysis": {
