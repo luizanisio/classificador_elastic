@@ -1,6 +1,8 @@
-Exemplo de uma pesquisa no elasticsearch comparando o texto apresentado com os textos da base.
+# Pesquisa para classificação
+Segue o exemplo de uma pesquisa no elasticsearch comparando o texto apresentado com os textos da base.
 A escolha dos campos e critérios de pesquisa (shingle, shingle_raw, autor, peso dos votos) afeta o resultado, positicamente ou negativamente. 
 
+```json
 POST meustextos/textos/_search
 { "size" : 7,
   "_source": ["Classificacao","Texto"],
