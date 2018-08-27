@@ -8,7 +8,8 @@ Sugiro o uso do <b>Dev Tools</b> do <b>kibana</b> para seguir os exemplos, facil
 O <b>primeiro passo</b> é criar um índice definindo os campos de forma a potencializar a pesquisa do elastic e aumentar a eficácia do classificador.
 - pode-se criar um arquivo de sinônimo para cada contexto (sinônimo de somes, termos de informática, termos de áreas específicas, etc)
 - não é sugerida a criação de listas muito grandes de sinônimos, apenas o que realmente for útil no contexto
-- o arquivo de exemplo de sinônimo de nomes foi encontrado em um fórum (vou resgatar e incluir o endereço aqui) e alguns nomes foram acrescidos apenas como exemplo. Documentação: https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-synonym-tokenfilter.html
+- o arquivo de exemplo de sinônimo de nomes foi encontrado em um fórum (vou resgatar e incluir o endereço aqui) e alguns nomes foram acrescidos apenas como exemplo. 
+- Documentação do uso de sinônimos: https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-synonym-tokenfilter.html
 
 O <b>segundo passo</b> é criar uma pesquisa com More Like This que reflita corretamente a relação entre o campo de pesquisa e o campo da classe, acrescentando pesos com filtros em relação a outros campos relacionados.
 - Outros exemplos de pesquisas com MLT: https://github.com/luizanisio/classificador_elastic/blob/master/021_mais_pesquisas.md
