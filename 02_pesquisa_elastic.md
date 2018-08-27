@@ -3,6 +3,7 @@ Segue o exemplo de uma pesquisa no elasticsearch comparando o texto apresentado 
 A escolha dos campos e critérios de pesquisa (shingle, shingle_raw, autor, peso dos votos) afeta o resultado, positicamente ou negativamente. 
 
 <b>Documentação do More Like This (MLT)</b>: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-mlt-query.html
+- <b>Outras dicas de pesquisa:</b> https://github.com/luizanisio/classificador_elastic/blob/master/021_mais_pesquisas.md
 
 ```json
 POST meustextos/textos/_search
